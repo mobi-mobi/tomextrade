@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { categories } from "@/data/productCategoriesData";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductCategories = () => {
   const ref = useRef(null);
@@ -87,14 +88,13 @@ const ProductCategories = () => {
                     ))}
                   </ul>
 
-                  <motion.button
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
+                  <Link
+                    href="/catalogue"
                     className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg font-medium transition-colors duration-300 flex items-center justify-center gap-2 group-hover:shadow-lg"
                   >
                     Zistiť viac
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </motion.button>
+                  </Link>
                 </div>
               </div>
             </motion.div>
@@ -112,7 +112,7 @@ const ProductCategories = () => {
               Neviete si rady?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              Kontaktuje nás a my vám pomôžeme nájsť vhodné produkty pre vaše
+              Kontaktujte nás a my vám pomôžeme nájsť vhodné produkty pre vaše
               špecifické obchodné požiadavky.
             </p>
             <motion.button

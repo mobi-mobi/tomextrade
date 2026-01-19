@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="bg-blue-600 p-2 rounded-lg">
                 <Building2 className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl font-bold">Tomex sro</h3>
+              <h3 className="text-2xl font-bold">TomexTrade</h3>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
               Váš nový dôveryhodný partner v hygienických riešeniach.
@@ -105,7 +105,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="text-gray-400 text-sm"
             >
-              © {currentYear} Tomex sro. Všetky práva vyhradené.
+              © {currentYear} TomexTrade. Všetky práva vyhradené.
             </motion.p>
 
             <motion.button

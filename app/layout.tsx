@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Tomex sro - Prémiové hygienické produkty",
+  title: "TomexTrade - Prémiové hygienické produkty",
   description:
     "Prémiové hygienické produkty pre vaše podnikanie. Kvalitné utierky, dávkovače a ostatné hygienické produkty, ktoré udržujú vaše pracovisko čisté, bezpečné a v súlade s najvyššími štandardmi.",
 };

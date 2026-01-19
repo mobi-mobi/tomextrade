@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Shield, Award, Users } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -61,13 +62,13 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <button
-              onClick={() => scrollToSection("products")}
+            <Link
+              href="/catalogue"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Zobraziť produkty
               <ArrowRight size={20} />
-            </button>
+            </Link>
             <button
               onClick={() => scrollToSection("contact")}
               className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"

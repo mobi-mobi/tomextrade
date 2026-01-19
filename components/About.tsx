@@ -22,7 +22,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            O spoločnosti Tomex sro
+            O spoločnosti TomexTrade
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Váš nový dôveryhodný partner v hygienických riešeniach
@@ -45,7 +45,7 @@ const About = () => {
 
             <p className="text-gray-600 leading-relaxed">
               S našou víziou poskytovať výnimočné hygienické riešenia,
-              spoločnosť Tomex sro pravidelne zásobuje podniky v celom regióne.
+              spoločnosť TomexTrade pravidelne zásobuje podniky v celom regióne.
               Chápeme, že udržiavanie vysokých hygienických štandardov je
               kľúčové pre úspech vášho podnikania a spokojnosť zákazníkov.
             </p>
