@@ -5,7 +5,6 @@ import EmailTemplate from "@/components/EmailTemplate";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-// Simple in-memory rate limiter (for single instance deployments)
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
 
 function checkRateLimit(ip: string): boolean {
